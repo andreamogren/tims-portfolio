@@ -1,0 +1,40 @@
+$container-width: 1140px;
+$base-padding: 16px; 
+$regular-text-size: 16px;
+
+$primary-color: #1aabac;
+$secondary-color: #ec2e57;
+$secondary-background: #e6f3f1;
+
+$h1-size: 48px;
+
+$mobile-max-width: 415px;
+$tablet-max-width: 768px;
+$desktop-min-width: 1024px;
+
+@mixin h2-styles {
+    font-size: $h1-size;
+    margin-top: 0;
+    color: $secondary-color;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        content: '';
+        bottom: -20px;
+        left: 3px;
+        width: 85px;
+        height: 3px;
+        background-color: #4a4a4a;
+    }
+}
+
+@mixin container-styles {
+    max-width: $container-width;
+    margin: 0 auto;
+    padding: calc(#{$base-padding} * 5) $base-padding;
+
+    @media(min-width: $desktop-min-width) {
+        padding: calc(#{$base-padding} * 5) 0;
+    }
+}
