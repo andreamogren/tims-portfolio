@@ -19,7 +19,7 @@ module.exports = {
     /* ... */
   },
   buildOptions: {
-    /* ... */
+    baseUrl: '/tims-portfolio/'
   },
   proxy: {
     /* ... */
