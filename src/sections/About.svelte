@@ -45,7 +45,7 @@
     <div class="about-container">
         <h2>About</h2>
         <div class="text-content-container">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Hello and welcome to my portfolio! My name is Tim and I'm currently a student at Xenters 3D-Technician program. I aspire to become someone with have broad understanding of the field that I'm working in. At my workplace my goal will be that machines are never broken and keept in tiptop condition. I'm a curious nerd that loves games and even more to cook. Mexican is my cuisine of choice.</p>
             <img src="https://i.pinimg.com/originals/3a/fb/f8/3afbf8c348fb977671a5e41d83e39bee.jpg" alt="An image of Tim"/>
         </div>
     </div>

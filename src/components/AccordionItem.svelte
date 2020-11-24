@@ -21,8 +21,13 @@
     margin-bottom: $base-padding;
     margin-left: $base-padding;
 
-    img {
+    > img {
+        width: 358px;
+        height: 270px;
+        max-height: 100%;
         max-width: 100%;
+        object-fit: cover;
+        border: 1px solid lightgray;
     }
 
     @media (min-width: $desktop-min-width) {
@@ -38,6 +43,7 @@
     justify-content: space-between;
     padding: 0 $base-padding;
     border: solid $primary-color 1px;
+    border-top: 0;
     border-radius: 4px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
