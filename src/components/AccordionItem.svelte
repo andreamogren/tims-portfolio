@@ -16,23 +16,26 @@
 @import '../../public/assets/variables';
 
 .accordion-item {
-    width: calc(100% - #{$base-padding});
-    margin-right: $base-padding;
     margin-bottom: $base-padding;
-    margin-left: $base-padding;
-
     > img {
         width: 358px;
         height: 270px;
         max-height: 100%;
-        max-width: 100%;
-        object-fit: cover;
+        max-width: calc(100% - 2px);
         border: 1px solid lightgray;
     }
 
     @media (min-width: $desktop-min-width) {
-        margin-left: 0;
         width: calc(33% - #{$base-padding});
+    }
+
+    @media (min-width: $tablet-max-width) {
+        margin-right: $base-padding;
+        width: calc(50% - #{$base-padding});
+    }
+
+    @media (max-width: $mobile-max-width) {
+        max-width: 100%;
     }
 }
 
@@ -95,7 +98,7 @@
     }
 
     .arrow-icon {
-            transform: rotate(180deg);
+        transform: rotate(180deg);
     }
 
     .accordion-item-body {

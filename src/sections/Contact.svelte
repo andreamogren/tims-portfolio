@@ -34,7 +34,7 @@
 <div id="contact" class="contact">
     <div class="contact-container">
         <h2>Contact</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Feel free to contact me on my email or LinkedIn profile below:</p>
         <div class="logos">
             <a class="logo" href="mailto:timhellberg@gmail.com"><img src="./assets/email.svg" alt="Email"/></a>
             <a class="logo" href="https://www.linkedin.com/in/tim-hellberg-5b7647196/"><img src="./assets/linkedin.png" alt="LinkedIn profile"/></a>
