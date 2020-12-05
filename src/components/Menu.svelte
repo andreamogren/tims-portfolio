@@ -71,14 +71,14 @@
             <img class="menu-icon" src="./assets/menu.svg" alt="Tap to open menu" on:click={() => isMenuOpen = !isMenuOpen}/>
         {/if}
         {#if (isMenuOpen)}
-        <a on:click={() => animateScroll.scrollTo({element: "#start"})} href="#start" class="name">Tim Hellberg</a>
-        <nav class="menu">
-            {#each menuItems as item}
-                <a on:click={() => animateScroll.scrollTo({element: `#${item.toLowerCase()}`})} href="#{item}">
-                    {item}
-                </a>
-            {/each}
-        </nav>
+            <a on:click={() => animateScroll.scrollTo({element: "#start"})} href="#start" class="name">Tim Hellberg</a>
+            <nav class="menu">
+                {#each menuItems as item}
+                    <a on:click={() => animateScroll.scrollTo({element: `#${item.toLowerCase()}`})} href="#{item}">
+                        {item}
+                    </a>
+                {/each}
+            </nav>
         {/if}
     </div>
 </header>

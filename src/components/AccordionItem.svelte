@@ -4,6 +4,8 @@
     export let img: string
     export let alt: string
     export let tag: string
+    export let thingiverseLink: string
+    export let fatDragonLink: string
 
     let isOpen = false
 
@@ -25,13 +27,13 @@
         border: 1px solid lightgray;
     }
 
-    @media (min-width: $desktop-min-width) {
-        width: calc(33% - #{$base-padding});
-    }
-
     @media (min-width: $tablet-max-width) {
         margin-right: $base-padding;
         width: calc(50% - #{$base-padding});
+    }
+
+    @media (min-width: $desktop-min-width) {
+        width: calc(33% - #{$base-padding});
     }
 
     @media (max-width: $mobile-max-width) {
@@ -84,11 +86,19 @@
 }
 
 .accordion-item-body {
-    padding: 0 $base-padding;
+    padding: 0 $base-padding $base-padding;
     border: solid $primary-color 1px;
     border-radius: 4px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+
+    a {
+        display: block;
+        margin-bottom: calc(#{$base-padding} / 2);
+        color: $secondary-color;
+        font-weight: 700;
+        text-decoration: none; 
+    }
 }
 
 .accordion-item.selected {
@@ -119,6 +129,12 @@
     {#if isOpen}
         <div class="accordion-item-body">
             <p>{content}</p>
+            {#if thingiverseLink}
+                <a href={thingiverseLink} target="_blank" rel="noopener noreferrer">Link to Thingiverse</a>
+            {/if}
+            {#if fatDragonLink}
+                <a href={fatDragonLink} target="_blank" rel="noopener noreferrer">Link to Fat Dragon Games</a>
+            {/if}
         </div>
     {/if}
 </div>
