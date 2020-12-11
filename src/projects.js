@@ -110,7 +110,7 @@ export const projects = [
     },
     {
         header: "Candelabra",
-        content: "Candelabra designed and modeled in Maya by me, Tim Hellberg.",
+        content: "Candelabra designed and modeled in Maya by Tim Hellberg.",
         img: "./assets/project_images/candelabra_wider.png",
         tag: "3d modeling",
         alt: "Wonder Woman tiara"

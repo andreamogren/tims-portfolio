@@ -45,7 +45,7 @@
     <div class="about-container">
         <h2>About</h2>
         <div class="text-content-container">
-            <p>Hello and welcome to my portfolio! My name is Tim and I'm currently a student at Xenters 3D-Technician program. I aspire to become someone with have broad understanding of the field that I'm working in. At my workplace my goal will be that machines are never broken and keept in tiptop condition. I'm a curious nerd that loves games and even more to cook. Mexican is my cuisine of choice.</p>
+            <p>Hello and welcome to my portfolio! My name is Tim and I'm currently a student at Xenter's 3D-Technician program. I aspire to become someone with a broad understanding of the field that I'm working in. At my future workplace my goal will be that machines never stay broken and are kept in tip top condition. I'm a curious nerd that loves games and even more to cook. Mexican is my cuisine of choice.</p>
             <img src="./assets/tim_hellberg.jpg" alt="An image of Tim"/>
         </div>
     </div>
