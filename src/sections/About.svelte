@@ -28,6 +28,10 @@
             border: 1px solid black;
             width: 400px;
             max-width: 100%;
+
+            @media(min-width: $desktop-min-width) {
+                margin-top: calc(#{$base-padding} * 5); 
+            }
         }
 
         @media(min-width: $desktop-min-width) {
